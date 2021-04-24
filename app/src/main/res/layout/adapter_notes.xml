@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffffff"
+    >
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        android:layout_margin="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/titless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title "
+                android:textSize="16sp"
+                android:textColor="#000"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:id="@+id/prority"
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 "
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:id="@+id/desc"
+                android:layout_below="@+id/titless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description "
+                android:textSize="14sp"
+                android:textColor="#000"
+                android:layout_margin="10dp"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
